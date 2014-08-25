@@ -1,22 +1,2 @@
-
-/**
- * Google Tag Manager
- */
-
-.logo[data-logo="Google Tag Manager"] {
-  width: 7.081928349em;
-  /* (205.362/27.355) * (1-.04-.01) - .05 */
-}
-
-.logo[data-logo="Google Tag Manager"] > * {
-  background-image: url(images/logo.svg);
-  margin: .05em 0 0 -.05em;
-}
-
-.logo[data-logo="Google Tag Manager"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="Google Tag Manager"][data-color="white"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
